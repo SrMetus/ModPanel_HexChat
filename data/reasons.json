@@ -1,0 +1,59 @@
+{
+    "kick": {
+        "1": { "motivo": "Por favor escriba en castellano, así todos podremos entenderle. Gracias.", "usado": 0 },
+        "2": { "motivo": "Por favor modere su vocabulario. Gracias.", "usado": 0 },
+        "3": { "motivo": "u nick no es el mas adecuado para la tematica del canal $chan Por Favor, cambielo. Escriba /nick nickelegido - Gracias.", "usado": 0 },
+        "4": { "motivo": "Por favor desactive las mayúsculas. En IRC son considerados gritos y por lo tanto una falta de respeto.", "usado": 0 }
+    },
+    "ban": {
+        "1": { "motivo": "Su nick no es el mas adecuado para la tematica del canal $chan Por Favor, cambielo. Escriba /nick nickelegido - Gracias.", "usado": 0},
+        "2": { "motivo": "Por favor escriba en menos líneas, el Flood no esta permitido. Gracias.", "usado": 0},
+        "3": { "motivo": "Sin repetir, es molesto para el resto de la sala $chan , gracias.", "usado": 0},
+        "4": { "motivo": "Actividad NO PERMITIDA en la sala $chan", "usado": 0},
+        "5": { "motivo": "Prohibido ofrecer datos personales o fotos de terceros. Respete la privacidad de los demás.", "usado": 0},
+        "6": { "motivo": "Prohibida la búsqueda de menores.", "usado": 0},
+        "7": { "motivo": "Prohibido mencionar o hacer invitaciones a otros canales.", "usado": 0},
+        "8": { "motivo": "Múltiples advertencias ignoradas.", "usado": 0}
+    },
+    "warm": {
+        "1": { "motivo":"[ $nick ] Por favor modere su vocabulario. Gracias.", "usado": 0},
+        "2": { "motivo":"[ $nick ] Este canal no se adecua a su búsqueda. Escriba /list y busque alguno acorde. Gracias.", "usado": 0},
+        "3": { "motivo":"[ $nick ] $chan no es un canal de contenido sexual. Por favor, modere su lenguaje. Gracias.", "usado": 0},
+        "4": { "motivo":"[ $nick ] Su nick no es el adecuado para la temática de $chan . Cámbielo con: /nick NICK – Gracias.", "usado": 0},
+        "5": { "motivo":"[ $nick ] Respete a los demás. Los insultos y faltas de respeto están prohibidos.", "usado": 0},
+        "6": { "motivo":"[ $nick ] No provoque a los demás. Gracias.", "usado": 0},
+        "7": { "motivo":"[ $nick ] Su comentario está fuera de lugar. Modérese, por favor.", "usado": 0},
+        "8": { "motivo":"[ $nick ] Evite hacer Flood o usar dibujos ASCII. Está prohibido. Gracias.", "usado": 0},
+        "9": { "motivo":"[ $nick ] Por favor, acorte su texto. Muchas líneas dificultan la lectura. Gracias.", "usado": 0},
+        "10": { "motivo":"[ $nick ] Evite los colores excesivos. Son molestos. Gracias.", "usado": 0},
+        "11": { "motivo":"[ $nick ] Quite el fondo. Es innecesario y molesto. Gracias.", "usado": 0},
+        "12": { "motivo":"[ $nick ] Desactive las mayúsculas. Son considerados gritos. Gracias.", "usado": 0},
+        "13": { "motivo":"[ $$1 ] Por favor NO repitas, NO repitas. Con una vez es suficiente. Gracias", "usado": 0}
+
+    },
+    "rules": {
+        "1": { 
+            "motivo": "Bienvenidos a $chan Canal de charlas y risas. Hacer Spam, hablar de Politica, ofrecer o pedir Dinero, faltar al Respeto, usar Mayusculas y Repetir constantemente, es motivo de BAN.", "usado": 0 },
+        "2": { "motivo": "Se les recuerda que esta Prohibido dar en Sala o por Privado Maill, Skype, Pin, Teléfono, Redes Sociales o Datos Personales, propios o de otras personas.", "usado": 0},
+        "3": { "motivo": "$chan Es un canal que podrían entrar MENORES. Los nicks, búsqueda y comentarios de indole sexual o inadecuados, son expulsados Sin Previo Aviso.", "usado": 0},
+        "4": { "motivo": "POR FAVOR NO HACERLO. Recordar, esto NO es un canal de SEXO, los nicks o comentarios de este tipo serán BANEADOS SIN AVISO. Gracias.", "usado": 0},
+        "5": { "motivo": "Los usuarios habituales del canal $chan conocen las normas y podrían ser sancionados Sin Aviso Previo en caso de no respetarlas.", "usado": 0}
+    },
+    "info_kick": {
+        "1": { "motivo": "En castellano" },
+        "2": { "motivo": "Mal vocabulario" },
+        "3": { "motivo": "Nick inadecuado" },
+        "4": { "motivo": "Mayúsculas excesivas" }
+    },
+    "info_ban": {
+        "1": { "motivo": "Nick inadecuado" },
+        "2": { "motivo": "Flood" },
+        "3": { "motivo": "Sin repetir" },
+        "4": { "motivo": "Actividad NO permitida" },
+        "5": { "motivo": "Datos personales" },
+        "6": { "motivo": "Búsqueda de menores" },
+        "7": { "motivo": "Spam canales" },
+        "8": { "motivo": "Spam publicidad" }
+    },
+    "contador_total": 0
+}
