@@ -1,13 +1,20 @@
 # modpanel.py
 # Ruta: C:\Users\Metus\AppData\Roaming\HexChat\addons\ModPanel_HexChat\modpanel.py
 
+# modpanel.py
 import hexchat
+import sys
+import os
 
-# === METADATOS DEL PLUGIN (OBLIGATORIOS) ===
+# === AGREGAR RUTA DEL PLUGIN AL sys.path (SIN __file__) ===
+config_dir = hexchat.get_info("configdir")
+addon_dir = os.path.join(config_dir, "addons", "ModPanel_HexChat")
+if addon_dir not in sys.path:
+    sys.path.append(addon_dir)
+
 __module_name__ = "ModPanel Pro"
 __module_version__ = "1.0"
 __module_description__ = "Panel de moderación profesional con motivos y contadores"
-
 
 # === FUNCIÓN: CARGAR EL JSON ===
 def load_reasons():
